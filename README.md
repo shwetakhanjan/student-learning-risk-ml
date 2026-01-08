@@ -19,7 +19,7 @@ The dataset represents student-level academic performance, including:
 - time spent on exercises
 - historical performance trends
 
-The data used is either anonymized or synthetically generated to reflect realistic educational patterns.
+The data used is synthetically generated to reflect realistic educational patterns.
 
 ## Approach
 The modeling pipeline includes:
