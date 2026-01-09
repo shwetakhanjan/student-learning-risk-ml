@@ -1,1 +1,25 @@
+Logistic Regression
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.93        98
+           1       0.79      0.70      0.75        27
+
+    accuracy                           0.90       125
+   macro avg       0.86      0.83      0.84       125
+weighted avg       0.89      0.90      0.89       125
+
+ROC-AUC: 0.9289493575207861
+
+Decision Tree
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99        98
+           1       1.00      0.96      0.98        27
+
+    accuracy                           0.99       125
+   macro avg       0.99      0.98      0.99       125
+weighted avg       0.99      0.99      0.99       125
+
+ROC-AUC: 0.9805366591080876
+
 
