@@ -1,3 +1,16 @@
+Model Evaluation Summary
+
+Dataset:
+Synthetic student math performance dataset (n=~500)
+
+Target:
+Binary classification of at-risk students
+
+Models Evaluated:
+1. Logistic Regression
+2. Decision Tree Classifier
+
+
 Logistic Regression
               precision    recall  f1-score   support
 
@@ -38,3 +51,7 @@ Accuracy: 0.99
 ROC-AUC: 0.98
 Recall (At-Risk): 0.96
 Notes: Strong performance but potential overfitting due to synthetic data
+
+Conclusion:
+Logistic regression was used as a baseline model due to interpretability,
+while the decision tree highlighted performance ceilings and overfitting risks.
