@@ -10,7 +10,16 @@ weighted avg       0.89      0.90      0.89       125
 
 ROC-AUC: 0.9289493575207861
 
-Decision Tree
+Model Evaluation Summary for 
+Logistic Regression:
+
+Accuracy: 0.90
+ROC-AUC: 0.93
+Recall (At-Risk): 0.70
+Notes: Conservative baseline model with higher interpretability.
+
+
+Decision Tree 
               precision    recall  f1-score   support
 
            0       0.99      1.00      0.99        98
@@ -22,4 +31,10 @@ weighted avg       0.99      0.99      0.99       125
 
 ROC-AUC: 0.9805366591080876
 
+Model Evaluation Summary for
+Decision Tree:
 
+Accuracy: 0.99
+ROC-AUC: 0.98
+Recall (At-Risk): 0.96
+Notes: Strong performance but potential overfitting due to synthetic data
