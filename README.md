@@ -44,6 +44,40 @@ Interpretability and evaluation tradeoffs are prioritized to ensure responsible 
 - `src/`: reusable preprocessing and training scripts
 - `results/`: evaluation outputs and metrics
 
+## Modeling Approach
+
+This project frames student learning risk as a binary classification problem.
+The goal is to identify students who may require early intervention based on
+engagement and performance features.
+
+### Models
+Two models were evaluated:
+
+- Logistic Regression (baseline, interpretable)
+- Decision Tree Classifier (non-linear model)
+
+Logistic regression served as a baseline due to its interpretability and
+robustness, while the decision tree was used to capture potential non-linear
+relationships between features.
+
+### Evaluation
+Models were evaluated using:
+- ROC-AUC
+- Precision and recall (with emphasis on recall for at-risk students)
+- Confusion matrices
+
+### Results
+Logistic regression achieved a ROC-AUC of 0.93, correctly identifying most
+at-risk students but missing some cases. The decision tree achieved higher
+performance across all metrics, including near-perfect recall, which raised
+concerns about overfitting given the synthetic nature of the dataset.
+
+### Key Takeaway
+This comparison highlights the tradeoff between model interpretability and
+performance, and reinforces the importance of skepticism when evaluating
+strong results on synthetic data.
+
+
 ## Future Work
 - Experiment with ensemble methods (e.g., Random Forest)
 - Incorporate temporal features
