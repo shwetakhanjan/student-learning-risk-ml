@@ -33,17 +33,7 @@ Interpretability and evaluation tradeoffs (particularly precision vs recall) are
 - Jupyter notebooks
 - GitHub for version control
 ## Project Workflow:
-Synthetic Data Generation
-        ↓
-Exploratory Data Analysis
-        ↓
-Feature Engineering
-        ↓
-Model Training
-(Logistic Regression / Decision Tree)
-        ↓
-Evaluation
-(ROC-AUC, Precision, Recall)
+Synthetic Data → EDA → Feature Engineering → Model Training(Logistic Regression / Decision Tree) → Evaluation (ROC-AUC, Precision, Recall)
 
 ## Project Structure
 - `data/`: raw and processed datasets
