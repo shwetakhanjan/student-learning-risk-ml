@@ -51,6 +51,7 @@ Synthetic Data → EDA → Feature Engineering → Model Training(Logistic Regre
 - `data/`: raw and processed datasets
 - `notebooks/`: exploratory analysis and modeling
 - `results/`: evaluation outputs and metrics
+
 Preprocessing and training code were kept in notebooks rather than refactored into a reusable src/ directory, which would be an important next step for production readiness.
 
 ## Modeling Approach
