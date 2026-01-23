@@ -34,6 +34,7 @@ The modeling pipeline includes:
 - Baseline modeling using logistic regression
 - Tree-based modeling using decision tree classifiers
 - Model evaluation using precision, recall, and confusion matrices
+
 I gave importance to the interpretability and evaluation trade-offs (particularly precision versus recall) based on situations in an educational set-up. I chose to go with Logistic Regression(LR) first as a baseline model due to its high interpretability and robustness. A high level of interpretability meant that each feature had a coefficient, and that I could explain how and why a particular feature affects risk. This was critical to my study as it helped in the next stage of intervention. The robustness of the model ensured that it performed reliably even with limited data and was less likely to overfit compared to a complex model. This reflected a stable behavior of the model on the synthetic dataset.
 I used LR first to establish an interpretable and reliable baseline. I used the decision tree classifier after LR to capture a) non-linear relationships that might be missed by LR model and also b) feature interactions that a linear model like Logistic Regression cannot represent.
 
